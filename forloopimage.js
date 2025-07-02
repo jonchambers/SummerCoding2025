@@ -30,7 +30,7 @@ function draw(){
 		line(0, i, windowWidth, i)
 	}
 
-	image(furby, windowWidth/2, windowHeight/2)
+	image(furby, mouseX, mouseY, 200, 200)
 	
 }
 
